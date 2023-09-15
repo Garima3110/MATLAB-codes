@@ -1,5 +1,6 @@
 clc
 clear All
+%syms x;
 f=@(x)cos(x)-3*x+1;
 g=@(x)(cos(x)+1)/3;
 x0=0;
